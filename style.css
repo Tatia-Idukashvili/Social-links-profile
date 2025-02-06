@@ -58,12 +58,15 @@ body{
     width: 250px;
     height: 35px;
     background-color: hsl(0, 0%, 20%);
-    color: hsla(0, 0%, 100%, 0.844);
     border: none;
     border-radius: 6px;
     font-weight: 700;
     font-size: 11px;
     cursor: pointer;
+}
+.socials button a{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.844);
 }
 .socials button:hover{
     background-color: hsla(75, 94%, 57%, 0.852);
